@@ -1,1 +1,23 @@
-<p>login works!</p>
+<body class="text-center">
+
+  <main class="form-signin">
+    <form #loginForm="ngForm" (ngSubmit)="login(loginForm)">
+      <img class="mb-4" src="../../assets/Login-amico.svg" alt="" width="120" height="120">
+      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+      <div class="form-floating">
+        <input type="text" #userName="ngModel" [(ngModel)]="user.userName" class="form-control" id="userName" name="userName" placeholder="User Name">
+        <label for="floatingInput">User Name</label>
+      </div>
+      <div class="form-floating">
+        <input type="password" #password="ngModel" [(ngModel)]="user.password" class="form-control" id="password" name="password" placeholder="Password">
+        <label for="floatingPassword">Password</label>
+      </div>
+
+    
+      <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+      <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
+    </form>
+  </main>
+
+</body>
