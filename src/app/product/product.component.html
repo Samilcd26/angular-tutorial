@@ -1,0 +1,32 @@
+
+<!-- <h3 *ngIf="products; else noProduct"> {{title}}</h3> -->
+
+
+<app-category></app-category>
+
+<div class="input-group mb-3 row">
+  <input class="form-control" id="productName" [(ngModel)]="filterText" placeholder="Search" />
+
+  <small *ngIf="filterText" class="form-text">You search now: <strong>{{filterText}}</strong></small>
+</div>
+
+<ng-template #noProduct>
+<div class="alert alert-danger" role="alert">
+    This category has not any procuts!
+  </div>
+</ng-template>
+
+
+<div class="row ">
+    <div *ngFor="let product of products | productFilter:filterText" class="card product-box" style="width: 18rem;">
+        <img [src]="product.imageUrl"  class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{product.name}} {{product.price | currency:'USD'}}</h5>
+          <p class="card-text">{{product.description}}</p>
+          <a (click)="addToCart(product)" href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+
+    
+
+</div>

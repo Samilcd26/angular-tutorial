@@ -1,0 +1,49 @@
+{
+	"products":[
+    {
+      "id": 1,
+      "name": "Logitech Mouse",
+      "price": 25,
+      "categoryID": 2,
+      "description": "LogiTect",
+      "imageUrl": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D&auto=format&fit=crop&w=1965&q=80"
+    },
+    {
+      "id": 2,
+      "name": "Samsung TV",
+      "price": 500,
+      "categoryID": 1,
+      "description": "Samsung 4K Smart TV",
+      "imageUrl": "https://images.unsplash.com/photo-1568269158422-855c3ed7079c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D&auto=format&fit=crop&w=1635&q=80"
+    },
+    {
+      "id": 3,
+      "name": "Apple iPhone 13 Pro Max",
+      "price": 1000,
+      "categoryID": 3,
+      "description": "Apple iPhone 13 Pro Max 256GB",
+      "imageUrl": "https://images.unsplash.com/photo-1623215613161-b296a49b652?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D&auto=format&fit=crop&w=1635&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Nike Air Jordan 1",
+      "price": 200,
+      "categoryID": 4,
+      "description": "Nike Air Jordan 1 Retro High OG",
+      "imageUrl": "https://images.unsplash.com/photo-1623215613161-b296a49b652?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D&auto=format&fit=crop&w=1635&q=80"
+    },
+    {
+      "id": 5,
+      "name": "Dell XPS 13",
+      "price": 1500,
+      "categoryID": 5,
+      "description": "Dell XPS 13 Laptop",
+      "imageUrl": "https://images.unsplash.com/photo-1623215613161-b296a49b652?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D&auto=format&fit=crop&w=1635&q=80"
+    }
+],
+	"categories":[
+{"id":1,"name":"Computer"},
+{"id":2,"name":"Electron"}
+]
+
+}
