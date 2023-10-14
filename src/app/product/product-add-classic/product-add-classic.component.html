@@ -1,5 +1,5 @@
 <h3>
-    Add New Product
+    Add New Product - Classic Form
 </h3>
 
 <form #productAddFrom="ngForm" (ngSubmit)="add(productAddFrom)">
@@ -41,7 +41,7 @@
     <div class="form-group">
         <select [(ngModel)]="model.categoryID" required class="form-control"
         id="categoryId" name="categoryId" #categoryId="ngModel">
-            <option *ngFor="let category of categories" value]="category.id" >{{category.name}}</option>
+            <option *ngFor="let category of categories" value="category.id" >{{category.name}}</option>
         </select>
         <div *ngIf="categoryId.invalid&&categoryId.touched" class="alert alert-danger">Cannot be empty
         </div>
